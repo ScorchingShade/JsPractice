@@ -1,0 +1,28 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "A practice repo to revise key Js concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScorchingShade/JsPractice.git"
+  },
+  "keywords": [
+    "jsPractice",
+    "javascript",
+    "practice"
+  ],
+  "author": "Ankush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScorchingShade/JsPractice/issues"
+  },
+  "homepage": "https://github.com/ScorchingShade/JsPractice#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}

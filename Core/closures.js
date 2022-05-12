@@ -2,23 +2,23 @@
 
 
 const counter = ()=> {
-    let count = 0;
+	let count = 0;
 
-    return {
-        increment: function(val=1){
-             count+=val;
-        },
-        getValue: function(){
-            return count
-        },
+	return {
+		increment: function(val=1){
+			count+=val;
+		},
+		getValue: function(){
+			return count;
+		},
         
-    }
+	};
    
-}
+};
 
 const privateCounter= counter();
 privateCounter.increment(3);
-console.log(privateCounter.getValue())
+console.log(privateCounter.getValue());
 
 
 // closure is a function that has access to the variables in its lexical scope even after the function has returned.

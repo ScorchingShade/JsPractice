@@ -1,6 +1,8 @@
 // what will be console logged here
 
-console.log(foo)
+// eslint-disable-next-line no-undef
+console.log(foo);
+// eslint-disable-next-line no-undef
 foo=1;
 
 // here we will get an error
@@ -18,7 +20,7 @@ foo=1;
 
 
 //2. what will be console logged here
-console.log(bar)
+console.log(bar);
 var bar = 1;
 
 // the above will log undefined now because now the variable is 
@@ -27,22 +29,22 @@ var bar = 1;
 
 //3 what will be console logged here
 baz=1;
-console.log(baz)
+console.log(baz);
 var baz;
 
 // the above will log 1 now because now the variable is both defined and initialized
 
 //4. what will be console logged here
-console.log(qux())
+console.log(qux());
 
 function qux() {
-    return 1;
+	return 1;
 }
 // The above will log 1 now because now the function is defined and initialized. 
 // Functions also bubble to top in declaration
 
 //5. what will be console logged here
-console.log(quux)
+console.log(quux);
 const quux = 1;
 
 // this will throw an error because const does not bubble up

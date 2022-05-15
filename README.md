@@ -8,6 +8,8 @@
 
 > A simple repo for all the commonly used practices in js acting as a quick refresher
 
+> I might create a platform for users to search through the problem statements and solve them further, but for now, this is simply a dump repo for all the practice I do on JS
+
 ## Install
 
 ```sh

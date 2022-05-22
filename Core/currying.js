@@ -60,6 +60,7 @@ const getId=get('id')
 
 // console.log(getId({id:2,name:"ankush"}))
 
-
+const map = curry((fn, values) => values.map(fn));
+console.log(map(getId, [{id:1}]));
 
 

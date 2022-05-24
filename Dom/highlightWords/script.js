@@ -3,6 +3,6 @@
 
 const para = document.querySelector('p');
 
-para.innerHTML=para.innerHTML.split(" ").map((ele)=>ele.length>8?`<span style="background-color:yellow">${ele}</span>`:ele)
+para.innerHTML=para.innerHTML.split(" ").map((ele)=>ele.length>8?`<span style="background-color:yellow">${ele}</span>`:ele).join(" ")
 
 console.log("para",para.innerHTML)
